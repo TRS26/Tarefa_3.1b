@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: auto;
+  }
+  
+  #mainRowHeader {
+    margin: auto;
+    height: 72px;
+  }
+  
+  .sticky-header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+
+  #headerLogo {
+    height: auto;
+    max-height: 50px;
+    max-width: 100%;
+    width: auto;
+    margin: 5px 0;
+  }
+  
+  .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 12px;
+  }
+  
+  .nav-link {
+    color: #ecf0f1;
+    cursor: pointer;
+    text-align: left;
+    padding: 15px;
+    text-transform: uppercase;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+  }
+  
+  .separador {
+    letter-spacing: -3px;
+    font-weight: bold;
+  }
+  
+  .star-icon {
+    padding: 0 10px;
+  }
+  
+  table {
+    font-size: 16px;
+    max-width: 1920px;
+  }
+  
+  table .btn {
+    height: 36px;
+    width: auto;
+    font-size: 16px;
+    padding: 6px;
+    margin: 0 2px 2px 2px;
+  }
+  
+  .table td,
+  .table th {
+    text-align: center;
+  }
+  
+  td {
+    min-width: 10vw;
+    max-width: 300px;
+  }
+  
+  a,
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: #447C69;
+    color: #fff;
+  }
+  .header {
+    background-color: #447C69;
+  }
+  
+  #footerContainer {
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    max-width: 100vw;
+    margin: auto;
+  }
+  
+  @media (max-width: 992px) {
+    .navbar.navbar-dark.navbar-expand-lg {
+      padding: 0;
+      margin-left: -16px;
+    }
+    .nav-link:hover {
+      cursor: pointer;
+      background-color: #ecf0f1;
+      color: #2c3e50 !important;
+    }
+  
+    .navbar-toggler:focus {
+      box-shadow: none;
+    }
+  
+    .footer {
+      width: 100%;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+    #navbarNav {
+      color: #ecf0f1;
+      margin-top: 1.5rem;
+      border-right: 1px solid #dee2e6;
+      margin-left: 0;
+      z-index: 1000;
+    }
+  
+    .navbar-nav {
+      width: 12.5rem;
+    }
+  
+    .nav-item {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .nav-link {
+      border-bottom: 1px solid #dee2e6;
+      padding-right: 0;
+      padding-left: 22px;
+    }
+  
+    .navbar-nav .nav-link {
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+
+    table {
+      font-size: 12px;
+    }
+  
+    table .btn {
+      height: 26px;
+      padding: 3px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .nav-item {
+      font-size: 12px;
+    }
+  }
