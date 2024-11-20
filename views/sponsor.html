@@ -22,13 +22,91 @@
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="../styles/styles.css" />
 
-    <script src="./javaScript/headerComponent.js" defer></script>
-    <script src="./javaScript/footerComponent.js" defer></script>
+    <script src="../javaScript/headerComponent.js" defer></script>
+    <script src="../javaScript/footerComponent.js" defer></script>
 
 </head>
-<body>
-    
+<body class="d-flex flex-column min-vh-100">
+  <div id="headerContainer"></div>
+
+  <div class="row p-2">
+    <div class="col-12 mt-5 mb-5 text-center">
+      <h2>Sponsors</h2>
+      <div class="separador">
+        ------------------------<i class="fas fa-star star-icon"></i
+        >------------------------
+      </div>
+    </div>
+
+    <div class="col-12">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Amount</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Tiago</td>
+            <td>10000€</td>
+            <td>
+              <button class="btn btn-warning">
+                <i class="fas fa-edit"></i> Edit
+              </button>
+              <button class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i> Delete
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Tiago</td>
+            <td>10000€</td>
+            <td>
+              <button class="btn btn-warning">
+                <i class="fas fa-edit"></i> Edit
+              </button>
+              <button class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i> Delete
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Tiago</td>
+            <td>10000€</td>
+            <td>
+              <button class="btn btn-warning">
+                <i class="fas fa-edit"></i> Edit
+              </button>
+              <button class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i> Delete
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Tiago</td>
+            <td>10000€</td>
+            <td>
+              <button class="btn btn-warning">
+                <i class="fas fa-edit"></i> Edit
+              </button>
+              <button class="btn btn-danger">
+                <i class="fas fa-trash-alt"></i> Delete
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div id="footerContainer"></div>
 </body>
 </html>

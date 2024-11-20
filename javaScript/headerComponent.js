@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="collapse navbar-collapse special" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="/">Animals</a>
+                  <a class="nav-link" href="/">Animals</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="/">Users</a>
+                  <a class="nav-link" href="/">Users</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled" href="/">Quizzes</a>
+                  <a class="nav-link" href="/">Quizzes</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="../views/expert.html">Experts</a>
